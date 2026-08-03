@@ -2,7 +2,7 @@
 
 An end-to-end data analytics project built on the UCI Online Retail dataset, covering database design, SQL analysis, and an interactive Power BI dashboard.
 
-![Dashboard Preview](dashboard_screenshot.png)
+![Dashboard Preview](Dashboard.png)
 
 ---
 
@@ -56,15 +56,15 @@ A reporting view, `retail_sales_view`, joins all four tables into a single analy
 
 | File | Purpose |
 |---|---|
-| `01_data_cleaning.sql` | Clean and prepare raw data |
-| `02_database_setup.sql` | Create normalized schema |
-| `03_create_views.sql` | Build `retail_sales_view` |
-| `04_data_validation.sql` | Validate row counts, dates, uniqueness |
-| `05_business_analysis.sql` | Core business metrics |
-| `06_customer_analysis.sql` | Customer-level analysis |
-| `07_product_analysis.sql` | Product-level analysis |
-| `08_time_analysis.sql` | Time-based trends |
-| `09_advanced_analysis.sql` | Window functions, running totals, ranking |
+| `00_data_cleaning.sql` | Clean and prepare raw data |
+| `01_database_setup.sql` | Create normalized schema |
+| `02_create_views.sql` | Build `retail_sales_view` |
+| `03_data_validation.sql` | Validate row counts, dates, uniqueness |
+| `04_business_analysis.sql` | Core business metrics |
+| `05_customer_analysis.sql` | Customer-level analysis |
+| `06_product_analysis.sql` | Product-level analysis |
+| `07_time_analysis.sql` | Time-based trends |
+| `08_advanced_analysis.sql` | Window functions, running totals, ranking |
 
 ---
 
@@ -155,6 +155,6 @@ retail-sales-analytics/
 
 ## Author
 
-**[Your Name]**
+**[Shubham Salvi]**
 Data Analytics Portfolio Project
-[LinkedIn](#) | [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/shubham-salvi-6b9982286/) | [GitHub](#)
