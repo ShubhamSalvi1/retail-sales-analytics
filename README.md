@@ -122,21 +122,21 @@ Avg Order Value = DIVIDE([Total Revenue], [Total Orders], 0)
 retail-sales-analytics/
 │
 ├── sql/
-│   ├── 01_data_cleaning.sql
-│   ├── 02_database_setup.sql
-│   ├── 03_create_views.sql
-│   ├── 04_data_validation.sql
-│   ├── 05_business_analysis.sql
-│   ├── 06_customer_analysis.sql
-│   ├── 07_product_analysis.sql
-│   ├── 08_time_analysis.sql
-│   └── 09_advanced_analysis.sql
+│   ├── 00_data_cleaning.sql
+│   ├── 01_database_setup.sql
+│   ├── 02_create_views.sql
+│   ├── 03_data_validation.sql
+│   ├── 04_business_analysis.sql
+│   ├── 05_customer_analysis.sql
+│   ├── 06_product_analysis.sql
+│   ├── 07_time_analysis.sql
+│   └── 08_advanced_analysis.sql
 │
 ├── powerbi/
 │   └── retail_sales_dashboard.pbix
 │
 ├── screenshots/
-│   └── dashboard_screenshot.png
+│   └── Dashboard.png
 │
 └── README.md
 ```
