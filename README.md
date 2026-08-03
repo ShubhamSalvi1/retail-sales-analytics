@@ -2,7 +2,7 @@
 
 An end-to-end data analytics project built on the UCI Online Retail dataset, covering database design, SQL analysis, and an interactive Power BI dashboard.
 
-![Dashboard Preview](Dashboard.png)
+![Dashboard Preview](screenshots/Dashboard.png)
 
 ---
 
@@ -146,7 +146,7 @@ retail-sales-analytics/
 ## How to Reproduce
 
 1. Import the [UCI Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail) into MySQL.
-2. Run the SQL scripts in numerical order (`01` through `09`).
+2. Run the SQL scripts in numerical order (`00` through `08`).
 3. Open `retail_sales_dashboard.pbix` in Power BI Desktop.
 4. Update the data source connection to point to your local MySQL instance.
 5. Refresh the data.
@@ -157,4 +157,4 @@ retail-sales-analytics/
 
 **[Shubham Salvi]**
 Data Analytics Portfolio Project
-[LinkedIn](https://www.linkedin.com/in/shubham-salvi-6b9982286/) | [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/shubham-salvi-6b9982286/) | [GitHub](https://github.com/ShubhamSalvi1/)
