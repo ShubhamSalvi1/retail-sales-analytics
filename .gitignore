@@ -1,0 +1,6 @@
+*.tmp
+~$*.pbix
+   .DS_Store
+   Thumbs.db
+   data/*.csv
+   *.xlsx
