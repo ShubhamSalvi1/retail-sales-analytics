@@ -126,7 +126,11 @@ Avg Order Value = DIVIDE([Total Revenue], [Total Orders], 0)
 * Return reasons are not captured in the source data — the return rate is a volume metric, not a root-cause diagnosis.
 --- 
 ## Future Improvements
-
+* Add cohort analysis by customer first-purchase month
+* Build a returns-drilldown page identifying which products/categories drive the return rate
+* Add year-over-year comparison if a second year of data becomes available
+* Incorporate a calendar/date table for more advanced time intelligence DAX (YTD, MTD, prior period comparisons)
+---
 ## Project Structure
 
 ```
@@ -153,7 +157,10 @@ retail-sales-analytics/
 ```
 
 ---
+## Résumé-Ready Project Description
+Retail Sales Analytics — Designed and normalized a MySQL database (customers, products, orders, order items) from a raw 500K+ row transactional export, and built a reporting view using joins, CTEs, and window functions (DENSE_RANK, LAG, running totals). Developed an interactive Power BI dashboard with custom DAX measures to surface revenue trends, customer segmentation, and return-rate metrics for business stakeholders.
 
+---
 ## How to Reproduce
 
 1. Import the [UCI Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail) into MySQL.
