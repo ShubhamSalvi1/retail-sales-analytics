@@ -5,7 +5,11 @@ An end-to-end data analytics project built on the UCI Online Retail dataset, cov
 ![Dashboard Preview](screenshots/Dashboard.png)
 
 ---
+## Business Problem  
 
+Retail businesses generate large volumes of transactional data, but raw transaction logs don't answer business questions on their own. This project simulates a scenario where a retail analytics team needs to understand: which markets and products drive revenue, how sales trend across the year, which customers represent the most value, and how returns are affecting net revenue — all from a single raw export of online transactions. 
+
+---
 ## Project Overview
 
 This project simulates a real-world retail analytics workflow: taking raw, messy transactional data and turning it into a normalized database, validated business insights, and a portfolio-quality interactive dashboard.
@@ -115,6 +119,13 @@ Avg Order Value = DIVIDE([Total Revenue], [Total Orders], 0)
 - Return rate sits at **6.9%** of gross sales, a useful baseline metric for tracking product quality or fulfillment issues over time.
 
 ---
+## Limitations
+* The dataset covers a single UK-based online retailer over roughly one year — findings reflect this specific business, not retail trends generally.
+* Revenue is heavily skewed toward the UK market, which limits the depth of international comparison.
+* No customer demographic data (age, gender, acquisition channel) was available, limiting segmentation beyond order behavior.
+* Return reasons are not captured in the source data — the return rate is a volume metric, not a root-cause diagnosis.
+--- 
+## Future Improvements
 
 ## Project Structure
 
@@ -155,6 +166,6 @@ retail-sales-analytics/
 
 ## Author
 
-**[Shubham Salvi]**
+**Shubham Salvi**
 Data Analytics Portfolio Project
 [LinkedIn](https://www.linkedin.com/in/shubham-salvi-6b9982286/) | [GitHub](https://github.com/ShubhamSalvi1/)
